@@ -1,0 +1,4 @@
+sleep 10
+ui_out '{ "jsonrpc": "2.0", "method": "set_ui_options", "params": [{}] }'
+ui_in '{ "jsonrpc": "2.0", "method": "mouse_press", "params": [ "left", 0, 6 ] }'
+ui_in '{ "jsonrpc": "2.0", "method": "mouse_release", "params": [ "left", 0, 6 ] }'
